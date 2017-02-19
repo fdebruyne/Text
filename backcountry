@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Backcountry - Outdoor</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+	<script type="text/javascript" src="js/mouseover"></script>
+</head>
+<body>
+	<!-- header开始 -->
+	<div class="header">
+		<div class="logo">
+			<img src="images/logo.png">
+		</div>	
+		<div class="nav">
+			<ul class="nav-list">
+				<li>SHOP
+					<ul>
+						<li><a href="#">Mens</a></li>
+						<li><a href="#">Womens</a></li>
+						<li><a href="#">Youth</a></li>
+					</ul>
+				</li>
+				<li>TEAM
+					<ul>
+						<li><a href="#">Ailsa</a></li>
+						<li><a href="#">Chris</a></li>
+						<li><a href="#">Eva</a></li>
+						<li><a href="#">Roxanne</a></li>
+						<li><a href="#">Debbie</a></li>
+						<li><a href="#">Beata</a></li>
+					</ul>
+				</li>
+				<li>EVENTS
+					<ul>
+						<li><a href="#">Snowboarding</a></li>
+						<li><a href="#">Ski</a></li>
+					</ul>	
+				</li>
+				<li>EXPERIENCE
+					<ul>
+						<li><a href="#">Louisiana's</a></li>
+					</ul>
+				</li>
+				<li>COMPANY
+				    <ul>
+				    	<li><a href="#">About Us</a></li>
+				    </ul>
+				</li>
+				<li>CONTACT
+					<ul>
+						<li><a href="#">TEL:877-33-92783</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div class="bag">
+			<img src="images/search-icon.png">
+			<div class="bager">
+				<img src="images/shopping-bag-icon.png">
+				<img src="images/€0.png">
+			</div>
+		</div>
+	</div><!-- header结束 -->
+	<!-- 主内容区开始 -->
+	<div class="container">
+		<div class="poster"><!-- 海报开始 -->
+			<div class="pic1">
+				<img src="images/Run-Over-Everything.png">
+			</div>
+			<div class="pic2">
+				<a href="#"><p>SEE DETAILS</p></a>
+			</div>
+		</div><!-- 海报结束 -->
+		<div class="products"><!-- 产品开始 -->
+			<div class="wenzi">
+				<div class="wenzi1"><img src="images/snowboards.png"></div>
+				<div class="wenzi2"><img src="images/Aliquam-erat-volutpat.-Curabitur-ut-consequat-arcu-eget-laoreet.png"></div>
+				<div class="wenzi3"><img src="images/Forma-1-cópia-5.png"></div>
+			</div>
+			<div class="adList">
+				<div class="adList-v">
+					<ul>
+						<li><img src="images/board-2.png"></li>
+						<li><img src="images/board-3.png"></li>
+						<li><img src="images/board-4.png"></li>
+						<li><img src="images/board-5.jpg"></li>
+						<li><img src="images/board-6.jpg"></li>
+						<li><img src="images/board-2.png"></li>
+						<li><img src="images/board-3.png"></li>
+						<li><img src="images/board-4.png"></li>
+						<li><img src="images/board-5.jpg"></li>
+						<li><img src="images/board-6.jpg"></li>
+					</ul>
+				</div>
+				<div class="prev"><img src="images/prev.png"></div>
+				<div class="next"><img src="images/next.png"></div>
+			</div>
+			<div class="teshu"><img alt="SNOWBOARD EXTREME SERIES" src="images/Snowboard-extreme-Series.png"></div>
+		</div><!-- 产品结束 -->
+		<div class="tietu"><!--贴图开始-->
+			<div class="tietu1"><img src="images/The-Mountains-Snowboarding-®.png"></div>
+			<div class="tietu2"><img src="images/Donec-.png"></div>
+		</div><!-- 贴图结束 -->
+		<div class="features"><!-- 细节开始 -->
+			<div class="fea"><img src="images/Features.png"></div>
+			<div class="fea2"><img src="images/Forma-1-cópia-5.png"></div>
+			<div class="fea3">
+				<ul>
+					<li><img src="images/snowboarding_0004s_0000s_0010_img-1.png"></li>
+					<li><img src="images/snowboarding_0004s_0000s_0007_img-2.png"></li>
+					<li><img src="images/snowboarding_0004s_0000s_0004_img-3.png"></li>
+					<li><img src="images/snowboarding_0004s_0000s_0001_img-4.png"></li>
+				</ul>
+			</div>
+			<div class="fea4">
+				<ul>
+					<li><img src="images/snowboarding_0004s_0000s_0009_Born-Identity_-Bringing-Burton-Hardgoods-to-Life.png"></li>
+					<li><img src="images/snowboarding_0004s_0000s_0006_Jeremy-Jones_-On-That-Street-Grind.png"></li>
+					<li><img src="images/snowboarding_0004s_0000s_0003_Burton’s-Tokyo-Rail-Days-Recap.png"></li>
+					<li><img src="images/snowboarding_0004s_0000s_0000_Burton’s-Tokyo-Rail-Days-Preview.png"></li>
+				</ul>
+			</div>
+		</div><!-- 细节结束 -->
+	</div><!--主内容区结束-->
+	<!-- 脚部开始 -->
+	<div class="footer">
+		<div class="public-container">
+			<div class="footer-col">
+				<h4>PRODUCTS</h4><br>
+				<ul>
+					<li><a href="#">Mens</a></li>
+					<li><a href="#">Womens</a></li>
+					<li><a href="#">Youth</a></li>
+				</ul>
+			</div>
+			<div class="footer-col">
+				<h4>ABOUT</h4><br>
+				<ul>
+					<li><a href="#">Careers and Internships</a></li>
+					<li><a href="#">Sponsorships</a></li>
+					<li><a href="#">Team</a></li>
+					<li><a href="#">Catalog Request/Download</a></li>
+				</ul>
+			</div>
+			<div class="footer-col">
+				<h4>CUSTOMER SUPPORT</h4><br>
+				<ul>
+					<li><a href="#">Contact Us</a></li>
+					<li><a href="#">Shipping and Order Tracking</a></li>
+					<li><a href="#">Easy Returns</a></li>
+					<li><a href="#">Warranty</a></li>
+					<li><a href="#">Replacement Binding Parts</a></li>
+				</ul>
+			</div>
+			<div class="footer-col">
+				<h4>NEWSLETTER</h4><br>
+				<div class="go">
+					<input class="btn-text" type="text" value="Enter your email"><button class="btn1" type="button"></button>
+				</div>
+			</div>
+		</div>
+		<div class="change">
+			<div class="change1"><p>&copy; 2017 Mountains Snowboards</p></div>
+			<div class="change2"><img src="images/snowboarding_0005s_0009_14x10q80.png">&nbsp;&nbsp;&nbsp;Change Region</div>
+		</div>
+	</div><!-- 脚部结束 -->
+	
+</body>
+</html>
