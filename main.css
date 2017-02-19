@@ -1,0 +1,295 @@
+*{
+		margin: 0;
+		padding: 0;
+	}
+	ul li{
+		list-style: none;
+	}
+	.header{
+		position: relative;
+		background-color: #000;
+		height: 110px;
+		width: 100%;
+	}
+	.logo{
+		height: 100%;
+		width: 160px;
+	}
+	.nav{
+		position: absolute;
+		top: 45%;
+		left: 190px;
+		color: #fff;
+		font-family: "Microsoft YaHei" ! important;
+		font-size: 12px;
+		font-weight: bold;
+	}
+	.nav-list li{
+		float: left;
+		list-style: none;
+		padding-right: 25px;
+		cursor: pointer;
+		position: relative;
+	}
+	.nav-list li ul li{
+		cursor:default;
+	}
+	.nav-list li ul{
+		position: absolute;
+		text-align: center;
+		top: 17px;
+		left: 0;
+		z-index: 2;
+		background-color: #000;
+		display: none;
+	}
+	.nav-list li ul li{
+		float: none;
+		height: 40px;
+		line-height: 40px;
+	}
+	.nav-list li ul li a{
+		text-decoration: none;
+		color: #fff;
+		display: block;
+	}
+	.nav-list li ul li:hover{
+		background-color: #121010;
+	}
+	.bag{
+		position: absolute;
+		top: 45%;
+		right: 130px;
+		width: 160px;
+		cursor: pointer;
+	}
+	.bager{
+		position: absolute;
+		top: 1px;
+		left: 60px;
+		cursor: pointer;
+	}
+	.poster{
+		position: relative;
+		background-image: url(../images/Camada-3.png);
+		background-size: cover;
+		width: 100%;
+		height: 650px;
+	}
+	.pic1{
+		position: absolute;
+		top: 250px;
+		left: 400px;
+	}
+	.pic2{
+		background-color: #000;
+		height: 55px;
+		width: 150px;
+		position: absolute;
+		bottom: 150px;
+		right: 700px;
+		text-align: center;
+		line-height: 55px;
+	}
+	.pic2 a{
+		text-decoration: none;
+		font-size: 13px;
+		font-weight: bold;
+		color: #fff;
+		font-family: "Microsoft YaHei";
+		/*margin: 0 auto;*/
+		/*display: block;*/
+	}
+	.products{
+		/*position: relative;*/
+	}
+	.wenzi{
+		height: 424px;
+		width: 100%;
+		text-align: center;
+	}
+	.wenzi1{
+		/*position: absolute;*/
+		margin-top: 160px;
+	}
+	.wenzi2{
+		margin-top: 35px;
+	}
+	.wenzi3{
+		margin-top: 35px;
+	}
+	.adList{
+		height: 408px;
+		width: 1900px;
+		position: relative;
+		overflow: hidden;
+	}
+	.adList ul{
+		height: 408px;
+	}
+	.adList ul li{
+		float: left;
+		width: 372px;
+		list-style: none;
+		text-align: center;
+		overflow: hidden;
+	}
+	.adList ul li img{
+		width: 167px;
+		height: 405px;
+	}
+	.adList-v{
+		width: 3720px;
+		position: absolute;
+	}
+	.prev{
+		position: absolute;
+		top: 89px;
+		left: 20px;
+		cursor: pointer;
+		display: none;
+	}
+	.next{
+		position: absolute;
+		top: 89px;
+		right: 20px;
+		cursor: pointer;
+		display: none;
+	}
+	.adList:hover .prev{
+		display: block;
+	}
+	.adList:hover .next{
+		display: block;
+	}
+	.teshu{
+		text-align: center;
+		margin-top: 60px;
+		margin-bottom: 215px;
+
+	}
+	.tietu{
+		background-image: url(../images/snowboarding_0003s_0002_bg-image2.png);
+		height: 1786px;
+		-webkit-background-size: cover;
+		background-size: cover;
+		position: relative;
+	}
+	.tietu1{
+		position: absolute;
+		top: 250px;
+		left: 220px;
+	}
+	.tietu2{
+		position: absolute;
+		top: 425px;
+		left: 220px;
+	}
+	.features{
+		height: 680px;
+	}
+	.fea{
+		text-align: center;
+		margin-top: 125px;
+	}
+	.fea2{
+		text-align: center;
+		margin-top: 37px;
+	}
+	.fea3{
+		/*height: 449px;*/
+		margin-top: 90px;
+	}
+	.fea3 ul{
+		/*height: 449px;*/
+		text-align: center;
+	}
+	.fea3 ul li{
+		/*float: left;*/
+		list-style: none;
+		width: 245px;
+		height: 160px;
+		display: inline-block;
+	}
+	.fea3 ul li img{
+		width: 220px;
+		height: 160px
+	}
+	.fea4{
+		margin-top: 30px;
+	}
+	.fea4 ul{
+		text-align: center;
+	}
+	.fea4 ul li{
+		list-style: none;
+		width: 245px;
+		display: inline-block;
+	}
+	.fea4 ul li img{
+		/*width: 220px;*/
+		height: 40px;
+	}
+	.footer{
+		background-color: #000;
+		height: 320px;
+		padding-top: 80px;
+	}
+	.public-container{
+		width: 980px;
+		height: 250px;
+		margin: 0 auto;
+	}
+	.public-container .footer-col{
+		width: 245px;
+		float: left;
+		color: #fff;
+		font-family: "Microsoft YaHei";
+	}
+	.public-container .footer-col ul li a{
+		font-size: 12px;
+		line-height: 1.8em;
+		color: #c9c9c9; 
+		text-decoration: none;
+	}
+	.public-container .footer-col ul li a:hover{
+		color: #fff;
+		text-decoration: underline;
+	}
+	.go{
+		width: 228px;
+		height: 40px;
+		float: left;
+	}
+	.btn-text{
+		width: 160px;
+		height: 40px;
+		border: 0;
+		float: left;
+		color: #898989;
+		padding-left: 8px;
+		outline: none;
+	}
+	.btn1{
+		width: 60px;
+		height: 40px;
+		background-image: url(../images/snowboarding_0005s_0001_Go.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		border: 0;
+		cursor: pointer;
+	}
+	.change{
+		width: 980px;
+		height: 70px;
+		margin: 0 auto;
+		color: #fff;
+		font-size: 13px;
+		font-family: "Microsoft YaHei";
+	}
+	.change1{
+		float: left;
+	}
+	.change2{
+		float: right;
+	}
